@@ -13,7 +13,7 @@
     />
     <title>小懶蟲｜首頁</title>
   </head>
-  <body style="font-family: 'Noto Sans TC', sans-serif">
+  <body>
     <!-- 導覽列 -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
       <div class="container d-flex">
@@ -38,7 +38,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
             <li class="nav-item">
-              <a class="nav-link ms-md-3" aria-current="page" href="index.html"
+              <a
+                class="nav-link ms-md-3 active"
+                aria-current="page"
+                href="index.html"
                 >首頁</a
               >
             </li>
@@ -62,8 +65,8 @@
     </nav>
 
     <header
-      class="header mb-5 text-white text-center d-md-flex flex-column align-items-center justify-content-center" style="
-      background-image: url('./images/home_bg.jpg');"
+      class="header mb-5 text-white text-center d-md-flex flex-column align-items-center justify-content-center"
+      style="background-image: url('./images/home_bg.jpg')"
     >
       <div class="container">
         <div class="pt-5">
@@ -294,36 +297,42 @@
     <div class="bg-light py-5">
       <div class="container">
         <h3 class="fw-bold text-center mb-4">需要其他協助嗎？</h3>
-        <div class="row g-4 justify-content-center">
-          <div class="col-md-2">
-            <div class="card shadow border-0 w-">
-              <div class="card-body text-center">
-                <i class="bi bi-telephone-fill text-info"></i>
-                <a class="text-decoration-none link-dark" href="tel:+07-555-666"
-                  >07-555-666</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="card shadow border-0 w-">
-              <div class="card-body text-center">
-                <i class="bi bi-facebook text-info"></i>
-                <a class="text-decoration-none link-dark" href="#"
-                  >我就是個小懶蟲</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="card shadow border-0 w-">
-              <div class="card-body text-center">
-                <i class="bi bi-question-lg text-info"></i>
-                <a class="text-decoration-none link-dark" href="faq.html"
-                  >常見問題</a
-                >
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-10 mx-auto">
+            <ul class="row g-4 justify-content-center list-unstyled">
+              <li class="col-md-4">
+                <div class="card shadow border-0 w-">
+                  <div class="card-body text-center">
+                    <i class="bi bi-telephone-fill text-info"></i>
+                    <a
+                      class="text-decoration-none link-dark"
+                      href="tel:+07-555-666"
+                      >07-555-666</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-4">
+                <div class="card shadow border-0 w-">
+                  <div class="card-body text-center">
+                    <i class="bi bi-facebook text-info"></i>
+                    <a class="text-decoration-none link-dark" href="#"
+                      >我就是個小懶蟲</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-4">
+                <div class="card shadow border-0 w-">
+                  <div class="card-body text-center">
+                    <i class="bi bi-question-lg text-info"></i>
+                    <a class="text-decoration-none link-dark" href="faq.html"
+                      >常見問題</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
